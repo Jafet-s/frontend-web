@@ -3,7 +3,7 @@ import axios from 'axios';
 import { User, UserCreate, UserUpdate } from '../types';
 
 const api = axios.create({
-  baseURL: 'http://18.188.41.12:8000', // Cambiar por tu URL de backend local
+  baseURL: 'https://18.188.41.12:8000', // Cambiar por tu URL de backend local
 });
 
 // Interceptor para añadir token a las peticiones
